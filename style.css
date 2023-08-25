@@ -1,0 +1,244 @@
+.calCu {
+    width: 423px; height: 858px; position: relative; background: linear-gradient(166deg, #FEFEFE 0%, #F9F9F9 13%, #F3F3F3 33%, #E5E5E5 100%); border-radius: 40px; overflow: hidden
+}
+.clockCu {
+    width: 30px; height: 30px; left: 359px; top: 59px; position: absolute
+}
+.clockCuc {
+    width: 24.43px; height: 25.20px; left: 2.78px; top: 2.40px; position: absolute; text-align: center; font-size:25px; cursor: pointer;
+}
+.esit {
+    width: 70px; height: 70px; left: 34px; top: 272px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word
+}
+.result {
+    width: 165px; height: 70px; left: 224px; top: 272px; position: absolute; text-align: right; color: #373737; font-size: 40px; font-family: Poppins; font-weight: 600; word-wrap: break-word
+}
+.past {
+    width: 355px; height: 35px; left: 34px; top: 237px; position: absolute; text-align: right; color: rgba(55, 55, 55, 0.50); font-size: 22px; font-family: Poppins; font-weight: 500; word-wrap: break-word
+}
+.ustMode {
+    width: 122px; height: 44px; left: 151px; top: 52px; position: absolute
+}
+.ustMode .ustMode1 {
+    width: 122px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #A9DCFD;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}.ustMode .ustMode2 {
+    width: 68px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #D8EEFF;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.ustMode .moonBtn {
+    width: 29.74px; height: 29.74px; left: 75px; top: 7px; position: absolute
+}
+.ustMode .moonBtn > .moonBtn1 {
+    width: 24.39px; height: 24.40px; left: 2.29px; top: 2.29px; position: absolute; text-align: center; font-size: 25px; cursor: pointer; opacity: 0.3;
+}
+.ustMode .sunBtn {
+    width: 29.74px; height: 29.74px; left: 17px; top: 7px; position: absolute
+}
+.ustMode .sunBtn > .sunBtn1 {
+    width: 29.74px; height: 29.74px; left: 0px; top: 0px; position: absolute; text-align: center; font-size: 25px; cursor: pointer; opacity: 0.9;
+}
+.orta {
+    width: 423px; height: 507px; left: 0px; top: 351px; position: absolute
+}
+.orta .orta1{
+    width: 423px; height: 507px; left: 0px; top: 0px; position: absolute; box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.10); border-radius: 30px; overflow: hidden
+}.orta .orta1 .orta1v1{
+    width: 1277.09px;
+    height: 862.29px;
+    left: -628.35px;
+    top: -58.02px;
+    position: absolute;
+    transform: rotate(-15deg);
+    transform-origin: 0 0;
+    background: linear-gradient(259deg, #9EE8FF 2%, #5ACEFF 28%, #79AFFF 65%, #2D5FDE 100%);
+    box-shadow: 364px 364px 364px;
+    filter: blur(364px);
+    -webkit-filter: blur(364px);
+}
+.orta .orta1 .orta1v2{
+    width: 423px;
+    height: 537px;
+    left: 0px;
+    top: -23px;
+    position: absolute;
+    background: rgba(229.55, 245.84, 255, 0.20);
+    box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.10);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.orta .orta1 .orta1v3 {
+    width: 175px;
+    height: 5px;
+    left: 124px;
+    top: 483px;
+    position: absolute;
+    background: #6396C5;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.orta .yanBlg {
+    width: 70px;
+    height: 430px;
+    left: 319px;
+    top: 26px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.orta .yanBlgEsit {
+    width: 70px;
+    height: 70px;
+    left: 319px;
+    top: 386px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+.orta .yanBlgBol {
+    width: 70px; height: 70px; left: 319px; top: 43px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.orta .ustBlg {
+    width: 260px;
+    height: 70px;
+    left: 34px;
+    top: 26px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.orta .numberBox {
+    width: 70px; height: 340px; left: 34px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+}
+.orta .numberBox > div {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+.orta .numberBox1{
+    width: 70px; height: 340px; left: 129px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+}
+.orta .numberBox1 > div{
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+.orta .numberBox3 {
+    width: 70px; height: 340px; left: 224px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+}
+.orta .numberBox3 > div {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+.nokta {
+    width: 70px; height: 70px; left: 34px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.sifir {
+    width: 70px; height: 70px; left: 129px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.ciftSifir {
+    width: 70px; height: 70px; left: 224px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.hesapEsit {
+    width: 70px; height: 70px; left: 319px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.arti {
+    width: 70px; height: 70px; left: 319px; top: 313px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.eksi {
+    width: 70px; height: 70px; left: 319px; top: 225px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.carpi {
+    width: 70px; height: 70px; left: 319px; top: 130px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num7 {
+    width: 70px; height: 70px; left: 34px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num8 {
+    width: 70px; height: 70px; left: 129px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num9 {
+    width: 70px; height: 70px; left: 224px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num4 {
+    width: 70px; height: 70px; left: 34px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num5{
+    width: 70px; height: 70px; left: 129px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num6 {
+    width: 70px; height: 70px; left: 224px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num1 {
+    width: 70px; height: 70px; left: 34px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num2 {
+    width: 70px; height: 70px; left: 129px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.num3 {
+    width: 70px; height: 70px; left: 224px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.deg {
+    width: 70px; height: 70px; left: 129px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.yuzde {
+    width: 70px; height: 70px; left: 224px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
+.acc {
+    width: 70px; height: 70px; left: 34px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+}
