@@ -1,244 +1,299 @@
-.calCu {
-    width: 423px; height: 858px; position: relative; background: linear-gradient(166deg, #FEFEFE 0%, #F9F9F9 13%, #F3F3F3 33%, #E5E5E5 100%); border-radius: 40px; overflow: hidden
+.calculator {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    166deg,
+    #fefefe 0%,
+    #f9f9f9 13%,
+    #f3f3f3 33%,
+    #e5e5e5 100%
+  );
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
-.clockCu {
-    width: 30px; height: 30px; left: 359px; top: 59px; position: absolute
+
+.header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.clockCuc {
-    width: 24.43px; height: 25.20px; left: 2.78px; top: 2.40px; position: absolute; text-align: center; font-size:25px; cursor: pointer;
+
+.night-show {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 119px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
-.esit {
-    width: 70px; height: 70px; left: 34px; top: 272px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word
+
+.moonBtn,
+.sunBtn {
+  cursor: pointer;
+  margin-right: 10px;
 }
+
+.settings {
+  cursor: pointer;
+  margin-left: 69px;
+}
+
+.result-are {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.proccess {
+  display: flex;
+  justify-content: end;
+  height: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
 .result {
-    width: 165px; height: 70px; left: 224px; top: 272px; position: absolute; text-align: right; color: #373737; font-size: 40px; font-family: Poppins; font-weight: 600; word-wrap: break-word
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.past {
-    width: 355px; height: 35px; left: 34px; top: 237px; position: absolute; text-align: right; color: rgba(55, 55, 55, 0.50); font-size: 22px; font-family: Poppins; font-weight: 500; word-wrap: break-word
+
+.esit {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+#result {
+  font-size: 24px;
+}
+
+.bottom-area {
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(259deg, #bcefff 2%, #a3cddf 28%, #94b5e5 65%, #bacdff 100%);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  height: 247px;
+}
+
+.first-row,
+.bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  font-weight: bold;
+  cursor: pointer;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+.first-row {
+  width: 59%;
+  justify-content: space-around;
+  display: flex;
+  height: 29px;
+  align-items: center;
+  padding: 7px;
+  margin-right: 16%;
+  margin-bottom: -43px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.numberBox {
+  width: calc(33.33% - 10px);
+  text-align: center;
+  padding: 10px 0;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  height: 18px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.right-area {
+  width: 14%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.3);
+  margin-left: 20px;
+  margin-bottom: 65px;
+  border-radius: 25px;
+  flex-direction: column;
+  font-weight: bold;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.right-area div {
+  text-align: center;
+  padding: 10px 0;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-area div:last-child {
+  background-color: rgb(175, 224, 253);
+  margin: 0;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 .ustMode {
-    width: 122px; height: 44px; left: 151px; top: 52px; position: absolute
+  display: flex;
 }
-.ustMode .ustMode1 {
-    width: 122px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #A9DCFD;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-}.ustMode .ustMode2 {
-    width: 68px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #D8EEFF;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+.moonBtn {
+  background-color: rgb(216, 238, 255);
+  width: 35px;
+  opacity: 0.5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
-.ustMode .moonBtn {
-    width: 29.74px; height: 29.74px; left: 75px; top: 7px; position: absolute
+.sunBtn {
+  background-color: rgb(169, 220, 253);
+  width: 35px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
-.ustMode .moonBtn > .moonBtn1 {
-    width: 24.39px; height: 24.40px; left: 2.29px; top: 2.29px; position: absolute; text-align: center; font-size: 25px; cursor: pointer; opacity: 0.3;
+
+/* DARKMODE */
+
+.sunBtnDark {
+  background-color: rgb(27,106,156);
 }
-.ustMode .sunBtn {
-    width: 29.74px; height: 29.74px; left: 17px; top: 7px; position: absolute
+.moonBtnDark { 
+  color: white;
+  background: #003661;
 }
-.ustMode .sunBtn > .sunBtn1 {
-    width: 29.74px; height: 29.74px; left: 0px; top: 0px; position: absolute; text-align: center; font-size: 25px; cursor: pointer; opacity: 0.9;
+.calculatorDarKmode { 
+    background: rgb(27,29,32);
 }
-.orta {
-    width: 423px; height: 507px; left: 0px; top: 351px; position: absolute
+.numberBoxDark {
+    background: rgb(18,53,77);
+    color: white;
+  
 }
-.orta .orta1{
-    width: 423px; height: 507px; left: 0px; top: 0px; position: absolute; box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.10); border-radius: 30px; overflow: hidden
-}.orta .orta1 .orta1v1{
-    width: 1277.09px;
-    height: 862.29px;
-    left: -628.35px;
-    top: -58.02px;
-    position: absolute;
-    transform: rotate(-15deg);
-    transform-origin: 0 0;
-    background: linear-gradient(259deg, #9EE8FF 2%, #5ACEFF 28%, #79AFFF 65%, #2D5FDE 100%);
-    box-shadow: 364px 364px 364px;
-    filter: blur(364px);
-    -webkit-filter: blur(364px);
+.result-areDark { 
+    color: white;
 }
-.orta .orta1 .orta1v2{
-    width: 423px;
-    height: 537px;
-    left: 0px;
-    top: -23px;
-    position: absolute;
-    background: rgba(229.55, 245.84, 255, 0.20);
-    box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.10);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+.bottomAreaDark {
+    background: rgba(0, 34, 53, 0.712);
 }
-.orta .orta1 .orta1v3 {
-    width: 175px;
-    height: 5px;
-    left: 124px;
-    top: 483px;
-    position: absolute;
-    background: #6396C5;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+.proccessDark {
+  color:grey;
 }
-.orta .yanBlg {
-    width: 70px;
-    height: 430px;
-    left: 319px;
-    top: 26px;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.30);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+.right-areaDark {
+  background: rgb(18,53,77);
+  color: white;
+
 }
-.orta .yanBlgEsit {
-    width: 70px;
-    height: 70px;
-    left: 319px;
-    top: 386px;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.20);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 9999px;
-    -webkit-border-radius: 9999px;
-    -moz-border-radius: 9999px;
-    -ms-border-radius: 9999px;
-    -o-border-radius: 9999px;
+.first-rowDark {
+  background: rgb(18,53,77);
+  color: white;
 }
-.orta .yanBlgBol {
-    width: 70px; height: 70px; left: 319px; top: 43px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+.right-areaDark div:last-child {
+  background-color: rgb(10,31,47);
 }
-.orta .ustBlg {
-    width: 260px;
-    height: 70px;
-    left: 34px;
-    top: 26px;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.30);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+
+.clockCucWhite {
+  color: white;
 }
-.orta .numberBox {
-    width: 70px; height: 340px; left: 34px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+
+/* LİGHTMODE */
+
+.sunBtnLight {
+  background-color: rgb(169, 220, 253);
 }
-.orta .numberBox > div {
-    width: 70px;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.30);
-    border-radius: 9999px;
-    -webkit-border-radius: 9999px;
-    -moz-border-radius: 9999px;
-    -ms-border-radius: 9999px;
-    -o-border-radius: 9999px;
+.moonBtnLight { 
+  color:black;
+  background-color: rgb(216, 238, 255);
 }
-.orta .numberBox1{
-    width: 70px; height: 340px; left: 129px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+.calculatorLightMode { 
+  background: linear-gradient(
+    166deg,
+    #fefefe 0%,
+    #f9f9f9 13%,
+    #f3f3f3 33%,
+    #e5e5e5 100%
+  );
 }
-.orta .numberBox1 > div{
-    width: 70px;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.30);
-    border-radius: 9999px;
-    -webkit-border-radius: 9999px;
-    -moz-border-radius: 9999px;
-    -ms-border-radius: 9999px;
-    -o-border-radius: 9999px;
+.numberBoxLight {
+    background: rgba(255, 255, 255, 0.3);
+    color:black;
+  
 }
-.orta .numberBox3 {
-    width: 70px; height: 340px; left: 224px; top: 116px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+.result-areLight { 
+    color:black;
 }
-.orta .numberBox3 > div {
-    width: 70px;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.30);
-    border-radius: 9999px;
-    -webkit-border-radius: 9999px;
-    -moz-border-radius: 9999px;
-    -ms-border-radius: 9999px;
-    -o-border-radius: 9999px;
+.bottomAreaLight {
+  background: linear-gradient(259deg, #bcefff 2%, #a3cddf 28%, #94b5e5 65%, #bacdff 100%);
 }
-.nokta {
-    width: 70px; height: 70px; left: 34px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+.proccessLight {
+  color:grey;
 }
-.sifir {
-    width: 70px; height: 70px; left: 129px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+.right-areaLight {
+  background: rgba(255, 255, 255, 0.3);
+  color:black;
+
 }
-.ciftSifir {
-    width: 70px; height: 70px; left: 224px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+.first-rowLight {
+  background: rgba(255, 255, 255, 0.3);
+  color:black;
 }
-.hesapEsit {
-    width: 70px; height: 70px; left: 319px; top: 402px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+.right-areaLight div:last-child {
+  background-color: rgb(175, 224, 253);
 }
-.arti {
-    width: 70px; height: 70px; left: 319px; top: 313px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
+
+.clockCucBlack {
+  color:black;
 }
-.eksi {
-    width: 70px; height: 70px; left: 319px; top: 225px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.carpi {
-    width: 70px; height: 70px; left: 319px; top: 130px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num7 {
-    width: 70px; height: 70px; left: 34px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num8 {
-    width: 70px; height: 70px; left: 129px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num9 {
-    width: 70px; height: 70px; left: 224px; top: 310px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num4 {
-    width: 70px; height: 70px; left: 34px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num5{
-    width: 70px; height: 70px; left: 129px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num6 {
-    width: 70px; height: 70px; left: 224px; top: 220px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num1 {
-    width: 70px; height: 70px; left: 34px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num2 {
-    width: 70px; height: 70px; left: 129px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.num3 {
-    width: 70px; height: 70px; left: 224px; top: 132px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.deg {
-    width: 70px; height: 70px; left: 129px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.yuzde {
-    width: 70px; height: 70px; left: 224px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
-.acc {
-    width: 70px; height: 70px; left: 34px; top: 40px; position: absolute; text-align: center; color: #373737; font-size: 26px; font-family: Poppins; font-weight: 600; word-wrap: break-word; cursor: pointer;
-}
+
+
+
+
+
