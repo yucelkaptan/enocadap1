@@ -1,6 +1,5 @@
-// DARK MODE TUŞU //
-
-
+const darkModeToggle = document.getElementById(`moonButton`);
+const lightModeToggle = document.getElementById(`sunButton`);
 const rightarea = document.getElementById("right-area"); 
 const calculator = document.getElementById("calculator"); 
 const resultare = document.getElementById("result-are"); 
@@ -21,60 +20,87 @@ const num10 = document.getElementById("num10");
 const num11 = document.getElementById("num11");
 const num12 = document.getElementById("num12");
 
-const moonButton = document.getElementById("moonButton");
-const sunButton = document.getElementById("sunButton");
+darkModeToggle.addEventListener("click", () => {
+    rightarea.classList.add(`right-areaDark`)
+    calculator.classList.add("calculatorDarKmode"); 
+    resultare.classList.add("result-areDark");
+    proccess.classList.add("processDark");
+    clockCuc.classList.add("clockCucWhite"); 
+    firstRow.classList.add("first-rowDark");
+    bottomArea.classList.add("bottomAreaDark");
+    num1.classList.add("numberBoxDark");
+    num2.classList.add("numberBoxDark");
+    num3.classList.add("numberBoxDark");
+    num4.classList.add("numberBoxDark");
+    num5.classList.add("numberBoxDark");
+    num6.classList.add("numberBoxDark");
+    num7.classList.add("numberBoxDark");
+    num8.classList.add("numberBoxDark");
+    num9.classList.add("numberBoxDark");
+    num10.classList.add("numberBoxDark");
+    num11.classList.add("numberBoxDark");
+    num12.classList.add("numberBoxDark");
 
-
-
-// DARK MODE FONKSİYONU //
-moonButton.addEventListener("click", function() {
-    sunButton.classList.toggle(".sunBtnDark");
-    moonButton.classList.toggle("moonBtnDark");
-
-    rightarea.classList.toggle("right-areaDark");
-    calculator.classList.toggle("calculatorDarKmode"); 
-    resultare.classList.toggle("result-areDark");
-    proccess.classList.toggle("processDark");
-    clockCuc.classList.toggle("clockCucWhite"); 
-    firstRow.classList.toggle("first-rowDark");
-    bottomArea.classList.toggle("bottomAreaDark");
-    num1.classList.toggle("numberBoxDark");
-    num2.classList.toggle("numberBoxDark");
-    num3.classList.toggle("numberBoxDark");
-    num4.classList.toggle("numberBoxDark");
-    num5.classList.toggle("numberBoxDark");
-    num6.classList.toggle("numberBoxDark");
-    num7.classList.toggle("numberBoxDark");
-    num8.classList.toggle("numberBoxDark");
-    num9.classList.toggle("numberBoxDark");
-    num10.classList.toggle("numberBoxDark");
-    num11.classList.toggle("numberBoxDark");
-    num12.classList.toggle("numberBoxDark");
-
+    rightarea.classList.remove("right-areaLight");
+    calculator.classList.remove("calculatorLightMode"); 
+    resultare.classList.remove("result-areLight");
+    proccess.classList.remove("processLight");
+    clockCuc.classList.remove("clockCucBlack"); 
+    firstRow.classList.remove("first-rowLight");
+    bottomArea.classList.remove("bottomAreaLight");
+    num1.classList.remove("numberBoxLight");
+    num2.classList.remove("numberBoxLight");
+    num3.classList.remove("numberBoxLight");
+    num4.classList.remove("numberBoxLight");
+    num5.classList.remove("numberBoxLight");
+    num6.classList.remove("numberBoxLight");
+    num7.classList.remove("numberBoxLight");
+    num8.classList.remove("numberBoxLight");
+    num9.classList.remove("numberBoxLight");
+    num10.classList.remove("numberBoxLight");
+    num11.classList.remove("numberBoxLight");
+    num12.classList.remove("numberBoxLight");
 });
 
-// LİGHT MODE FONKSİYON //
-sunButton.addEventListener("click", function() {
-    sunButton.classList.toggle(".sunBtnLight");
-    moonButton.classList.toggle("moonBtnLight");
-    rightarea.classList.toggle("right-areaLight");
-    calculator.classList.toggle("calculatorLightMode"); 
-    resultare.classList.toggle("result-areLight");
-    proccess.classList.toggle("processLight");
-    clockCuc.classList.toggle("clockCucBlack"); 
-    firstRow.classList.toggle("first-rowLight");
-    bottomArea.classList.toggle("bottomAreaLight");
-    num1.classList.toggle("numberBoxLight");
-    num2.classList.toggle("numberBoxLight");
-    num3.classList.toggle("numberBoxLight");
-    num4.classList.toggle("numberBoxLight");
-    num5.classList.toggle("numberBoxLight");
-    num6.classList.toggle("numberBoxLight");
-    num7.classList.toggle("numberBoxLight");
-    num8.classList.toggle("numberBoxLight");
-    num9.classList.toggle("numberBoxLight");
-    num10.classList.toggle("numberBoxLight");
-    num11.classList.toggle("numberBoxLight");
-    num12.classList.toggle("numberBoxLight");
-});
+lightModeToggle.addEventListener("click" , () => {
+    rightarea.classList.add("right-areaLight");
+    calculator.classList.add("calculatorLightMode"); 
+    resultare.classList.add("result-areLight");
+    proccess.classList.add("processLight");
+    clockCuc.classList.add("clockCucBlack"); 
+    firstRow.classList.add("first-rowLight");
+    bottomArea.classList.add("bottomAreaLight");
+    num1.classList.add("numberBoxLight");
+    num2.classList.add("numberBoxLight");
+    num3.classList.add("numberBoxLight");
+    num4.classList.add("numberBoxLight");
+    num5.classList.add("numberBoxLight");
+    num6.classList.add("numberBoxLight");
+    num7.classList.add("numberBoxLight");
+    num8.classList.add("numberBoxLight");
+    num9.classList.add("numberBoxLight");
+    num10.classList.add("numberBoxLight");
+    num11.classList.add("numberBoxLight");
+    num12.classList.add("numberBoxLight");
+
+    rightarea.classList.remove(`right-areaDark`)
+    calculator.classList.remove("calculatorDarKmode"); 
+    resultare.classList.remove("result-areDark");
+    proccess.classList.remove("processDark");
+    clockCuc.classList.remove("clockCucWhite"); 
+    firstRow.classList.remove("first-rowDark");
+    bottomArea.classList.remove("bottomAreaDark");
+    num1.classList.remove("numberBoxDark");
+    num2.classList.remove("numberBoxDark");
+    num3.classList.remove("numberBoxDark");
+    num4.classList.remove("numberBoxDark");
+    num5.classList.remove("numberBoxDark");
+    num6.classList.remove("numberBoxDark");
+    num7.classList.remove("numberBoxDark");
+    num8.classList.remove("numberBoxDark");
+    num9.classList.remove("numberBoxDark");
+    num10.classList.remove("numberBoxDark");
+    num11.classList.remove("numberBoxDark");
+    num12.classList.remove("numberBoxDark");
+})
 
