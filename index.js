@@ -1,7 +1,6 @@
 // DARK MODE TUŞU //
 
-const sunBtn = document.getElementById("sunBtn");
-const moonBtn = document.getElementById("moonBtn"); 
+
 const rightarea = document.getElementById("right-area"); 
 const calculator = document.getElementById("calculator"); 
 const resultare = document.getElementById("result-are"); 
@@ -28,7 +27,7 @@ const sunButton = document.getElementById("sunButton");
 
 
 // DARK MODE FONKSİYONU //
-moonBtn.addEventListener("click", function() {
+moonButton.addEventListener("click", function() {
     sunButton.classList.toggle(".sunBtnDark");
     moonButton.classList.toggle("moonBtnDark");
 
@@ -55,9 +54,9 @@ moonBtn.addEventListener("click", function() {
 });
 
 // LİGHT MODE FONKSİYON //
-sunBtn.addEventListener("click", function() {
-    sunBtn.classList.toggle(".sunBtnLight");
-    moonBtn.classList.toggle("moonBtnLight");
+sunButton.addEventListener("click", function() {
+    sunButton.classList.toggle(".sunBtnLight");
+    moonButton.classList.toggle("moonBtnLight");
     rightarea.classList.toggle("right-areaLight");
     calculator.classList.toggle("calculatorLightMode"); 
     resultare.classList.toggle("result-areLight");
