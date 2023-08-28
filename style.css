@@ -174,42 +174,44 @@
 .ustMode {
   display: flex;
 }
-.moonBtn {
+
+
+.moonButton1 {
   background-color: rgb(216, 238, 255);
-  width: 35px;
-  opacity: 0.5;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+    border: none;
+    border-radius: 25px;
+    width: 37px;
+    height: 20px;
+    
 }
-.sunBtn {
-  background-color: rgb(169, 220, 253);
-  width: 35px;
-  opacity: 0.9;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+.sunButton1{
+    border: none;
+    border-radius: 25px;
+    width: 37px;
+    height: 20px;
+    background-color: rgb(169, 220, 253);
 }
+
 
 /* DARKMODE */
 
 .sunBtnDark {
   background-color: rgb(27,106,156);
 }
-.moonBtnDark { 
+
+.moonBtnDark {
+  width: 35px;
+  height: 20px;
+  border-radius: 25px;
+  border: none;
   color: white;
   background: #003661;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
+
 .calculatorDarKmode { 
     background: rgb(27,29,32);
 }
@@ -251,7 +253,7 @@
 }
 .moonBtnLight { 
   color:black;
-  background-color: rgb(216, 238, 255);
+  
 }
 .calculatorLightMode { 
   background: linear-gradient(

@@ -22,11 +22,16 @@ const num10 = document.getElementById("num10");
 const num11 = document.getElementById("num11");
 const num12 = document.getElementById("num12");
 
+const moonButton = document.getElementById("moonButton");
+const sunButton = document.getElementById("sunButton");
+
+
 
 // DARK MODE FONKSİYONU //
 moonBtn.addEventListener("click", function() {
-    sunBtn.classList.toggle(".sunBtnDark");
-    moonBtn.classList.toggle("moonBtnDark");
+    sunButton.classList.toggle(".sunBtnDark");
+    moonButton.classList.toggle("moonBtnDark");
+
     rightarea.classList.toggle("right-areaDark");
     calculator.classList.toggle("calculatorDarKmode"); 
     resultare.classList.toggle("result-areDark");
@@ -73,3 +78,4 @@ sunBtn.addEventListener("click", function() {
     num11.classList.toggle("numberBoxLight");
     num12.classList.toggle("numberBoxLight");
 });
+
