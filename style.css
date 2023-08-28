@@ -26,10 +26,9 @@
 
 .night-show {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  margin-left: 119px;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -45,7 +44,7 @@
 
 .settings {
   cursor: pointer;
-  margin-left: 69px;
+  width: 1%;
 }
 
 .result-are {
@@ -286,6 +285,7 @@
 .clockCucBlack {
   color:black;
 }
+
 
 
 

@@ -112,4 +112,3 @@ lightModeToggle.addEventListener("click" , () => {
     num12.classList.remove("numberBoxDark");
 })
 
-
