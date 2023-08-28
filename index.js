@@ -21,6 +21,8 @@ const num11 = document.getElementById("num11");
 const num12 = document.getElementById("num12");
 
 darkModeToggle.addEventListener("click", () => {
+    darkModeToggle.classList.add(`moonBtnDark`);
+    lightModeToggle.classList.add(`sunBtnDark`);
     rightarea.classList.add(`right-areaDark`)
     calculator.classList.add("calculatorDarKmode"); 
     resultare.classList.add("result-areDark");
@@ -41,6 +43,8 @@ darkModeToggle.addEventListener("click", () => {
     num11.classList.add("numberBoxDark");
     num12.classList.add("numberBoxDark");
 
+    darkModeToggle.classList.remove(`moonBtnLight`);
+    lightModeToggle.classList.remove(`sunBtnLight`);
     rightarea.classList.remove("right-areaLight");
     calculator.classList.remove("calculatorLightMode"); 
     resultare.classList.remove("result-areLight");
@@ -63,6 +67,8 @@ darkModeToggle.addEventListener("click", () => {
 });
 
 lightModeToggle.addEventListener("click" , () => {
+    darkModeToggle.classList.add(`moonBtnLight`);
+    lightModeToggle.classList.add(`sunBtnLight`);
     rightarea.classList.add("right-areaLight");
     calculator.classList.add("calculatorLightMode"); 
     resultare.classList.add("result-areLight");
@@ -83,6 +89,8 @@ lightModeToggle.addEventListener("click" , () => {
     num11.classList.add("numberBoxLight");
     num12.classList.add("numberBoxLight");
 
+    darkModeToggle.classList.remove(`moonBtnDark`);
+    lightModeToggle.classList.remove(`sunBtnDark`);
     rightarea.classList.remove(`right-areaDark`)
     calculator.classList.remove("calculatorDarKmode"); 
     resultare.classList.remove("result-areDark");
@@ -103,4 +111,5 @@ lightModeToggle.addEventListener("click" , () => {
     num11.classList.remove("numberBoxDark");
     num12.classList.remove("numberBoxDark");
 })
+
 
